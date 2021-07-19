@@ -3,20 +3,20 @@
     {
       "id": 1,
       "first_name": "Customer_1",
-      "last_name": "Customer_11",
-      "type": "ADDED"
+      "last_name": "Customer_1",
+      "type": "active"
     },
     {
       "id": 2,
       "first_name": "Customer_2",
       "last_name": "Customer_2",
-      "type": "ADDED"
+      "type": "approved"
     },
     {
       "id": 3,
       "first_name": "Customer_3",
       "last_name": "Customer_3",
-      "type": "ADDED"
+      "type": "in-check"
     }
   ]
 }

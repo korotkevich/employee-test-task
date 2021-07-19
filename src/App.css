@@ -8,7 +8,7 @@
   padding:5px 10px 5px 30px;
   font:15px Helvetica;
   color:#fff;
-  background:#23468c;
+  background:#23468c40;
   float:left;
 }
 .nav-text a{
@@ -19,17 +19,17 @@
   color:white;
 }
 .nav:hover .nav-text{
-  background:#23468c;
+  background:#23468c82;
 }
 .nav:hover .arrow-right{
-  border-left:15px solid #23468c;
+  border-left:15px solid #23468c82;
 }
 .arrow-right {
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #23468c;
+  border-left: 15px solid #23468c40;
   float:left;
 }
 .arrow-left {
@@ -41,6 +41,12 @@
   float:left;
   position:relative;
   left:15px;
+}
+.active{
+  background:#23468cfa;
+}
+.active-arrow-right{
+  border-left:15px solid #23468cfa;
 }
 
 

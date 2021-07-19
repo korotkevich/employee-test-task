@@ -17,13 +17,14 @@ export const Employee: React.FC<IEmployee> = ({id, first_name,last_name,type, ch
          }
     return (
         <div>
-            <p>#{id} Full name: {first_name}{last_name} Type: {type}</p>
+            <p>#{id} Full name: {first_name}</p>
             <div>
                 {typesArray.map(item => (
                         <StateBar
-                            changeType={getType}
+                            getType={getType}
                             key={item}
-                            type={item}/>
+                            item={item}
+                            type={type}/>
                     )
                 )}
             </div>

@@ -18,19 +18,21 @@ export const EmployeeList:React.FC = () => {
     }, [])
 
     const changeType = (id: number, type: string) => {
-        patch('http://localhost:5000/employees', {id, type})
+        patch(`http://localhost:5000/employees/${id}`, {id, type})
             .then(() => {
-                const nextEmployee = employee.map(item => {
-                    if (item.id === id) {
+                const nextEmployee = employee.map(it => {
+                    if (it.id === id) {
                         return {
-                            ...item,
+                            ...it,
                             type
                         };
                     }
-                    return item;
+
+                    return it;
                 });
                 setEmployee(nextEmployee);
             })
+
     }
 
     return (
