@@ -4,19 +4,19 @@
       "id": 1,
       "first_name": "Customer_1",
       "last_name": "Customer_1",
-      "type": "active"
+      "type": "added"
     },
     {
       "id": 2,
       "first_name": "Customer_2",
       "last_name": "Customer_2",
-      "type": "approved"
+      "type": "added"
     },
     {
       "id": 3,
       "first_name": "Customer_3",
       "last_name": "Customer_3",
-      "type": "in-check"
+      "type": "active"
     }
   ]
 }

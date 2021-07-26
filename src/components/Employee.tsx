@@ -10,7 +10,7 @@ const typesArray = [
     'inactive'
 ]
 
-export const Employee: React.FC<IEmployee> = ({id, first_name,last_name,type, changeType}) => {
+export const Employee: React.FC<IEmployee> = ({id, first_name,type, changeType}) => {
     const [employeeType, setEmployeeType] = useState(typesArray)
     const getType = ( type: string) => {
         changeType(id, type)
